@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxygen/node-log-memory-usage.git"
+  },
+  "homepage": "https://github.com/oxygen/node-log-memory-usage",
+  "author": "oxygenus@gmail.com",
   "license": "MIT",
   "dependencies": {}
 }
