@@ -10,6 +10,11 @@ class Main
 	{
 		const objMemoryUsage = process.memoryUsage();
 
+		if(!this._objMemoryUsage)
+		{
+			this._objMemoryUsage = objMemoryUsage;
+		}
+
 		if(objMemoryUsage.heapTotal < nIgnoreAnythingBelowBytes && objMemoryUsage.external < nIgnoreAnythingBelowBytes)
 		{
 			// Too small variations to matter.

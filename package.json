@@ -1,6 +1,6 @@
 {
   "name": "log-memory-usage",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Uses console.log to dump current memory usage if it grows or decreases by about 25%. Runs global.gc() when a large memory increase is detected.",
   "main": "index.js",
   "scripts": {
